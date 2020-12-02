@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -29,9 +29,9 @@
         </p>
 
         <p class="view"><a href="https://pypi.org/project/repo-helper/">PyPI Releases</a>
-          <img alt="PyPI" src="https://img.shields.io/pypi/v/repo-helper">
+          <small><img alt="PyPI" src="https://img.shields.io/pypi/v/repo-helper"></small>
         </p>
-        
+
         <p class="view"><a href="https://github.com/apps/repo-helper">GitHub App</a></p>
         <p class="view"><a href="https://repo-helper.readthedocs.io/en/latest/">Docs</a></p>
 
