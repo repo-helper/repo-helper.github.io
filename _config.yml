@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: repo-helper
 description: Update multiple configuration files, build scripts etc. from a single location.
-logo: repo_helper_bot.png
+logo: repo-helper-bot.png
 show_downloads: false
